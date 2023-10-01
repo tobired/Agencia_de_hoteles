@@ -1,0 +1,10 @@
+1)use mi_base_de_datos
+2)db.createCollection("mi_coleccion")
+3)db.mi_coleccion.insert(   { nombre:'Emanuel', apellido: 'Aspi' , edad: 3, correo:"emanuelaspi123@gmail.com" ,});
+4)db.mi_coleccion.insertMany([
+  {nombre:'Gabriel', apellido: 'Sanabria' , edad: 17, correo:"tobiasrojaset32@gmail.com"},
+  {nombre:'Tobias ', apellido: 'Rojas' , edad: 19, correo:"gabriel.sanabriaet32@gmail.com" },
+  {nombre:'Alexis ', apellido: 'Oruna' , edad: 17, correo:"alexis.orunaet32@gmail.com" }
+]);
+5)db.mi_coleccion.find({});
+6)db.mi_coleccion.findOne({});
